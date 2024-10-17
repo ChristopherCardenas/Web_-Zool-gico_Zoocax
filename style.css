@@ -1,0 +1,224 @@
+body{
+    margin: auto;
+    background: linear-gradient(rgba(44, 248, 255, 0.137), transparent);
+}
+iframe{
+    margin: auto;
+}
+.accordion{
+    margin: auto;
+    width: 50hw;
+    max-width: 70%;
+    padding: 50px;
+
+}
+.caja_maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+h2{
+  text-align: center;
+}
+
+.direc_01 p {
+  text-align: center;
+}
+
+
+#carouselExampleCaptions {
+  height: 95vh; 
+  /* Ocupa el 100% de la altura de la ventana */
+}
+
+.carousel-item img {
+  height: 95vh; 
+  /* Asegura que las imágenes también ocupen el 100% de la altura */
+  object-fit: cover; 
+  /* Ajusta la imagen sin distorsionarla */
+}
+
+/*INFO*/
+.titulo_info{
+  text-align: center ;
+  margin-top: 20px;
+}
+/*REGISTRO*/
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50PX;
+    margin-bottom: 50PX;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 20px black;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: royalblue;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: royalblue;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: royalblue;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    -webkit-animation: pulse 1s linear infinite;
+            animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    -webkit-text-decoration: underline royalblue;
+            text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:-moz-placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:-ms-input-placeholder + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    -webkit-transform: .3s ease;
+        -ms-transform: .3s ease;
+            transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: scale(1.8);
+              transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: scale(1.8);
+              transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+  /* BUSCAR*/
